@@ -14,12 +14,18 @@ public class ProductsController : ControllerBase
     private readonly IProductService _productService;
     private readonly IWebHostEnvironment _environment;
     private readonly IConfiguration _configuration;
+    private readonly ILogger<ProductsController> _logger;
 
-    public ProductsController(IProductService productService, IWebHostEnvironment environment, IConfiguration configuration)
+    public ProductsController(
+        IProductService productService,
+        IWebHostEnvironment environment,
+        IConfiguration configuration,
+        ILogger<ProductsController> logger)
     {
         _productService = productService;
         _environment = environment;
         _configuration = configuration;
+        _logger = logger;
     }
 
     [HttpPost("image")]
@@ -52,8 +58,9 @@ public class ProductsController : ControllerBase
             var products = await _productService.GetAllAsync();
             return Ok(products);
         }
-        catch (NpgsqlException)
+        catch (NpgsqlException exception)
         {
+            _logger.LogError(exception, "Database request failed while loading products.");
             return StatusCode(StatusCodes.Status503ServiceUnavailable, new
             {
                 message = "Database unavailable. Please try again later."
