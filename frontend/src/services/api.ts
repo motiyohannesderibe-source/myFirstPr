@@ -10,11 +10,13 @@ import type {
   User
 } from '../types';
 
-const configuredApiOrigin = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/$/, '');
+const configuredApiOrigin = (import.meta.env.VITE_API_BASE_URL ?? '').trim().replace(/\/$/, '');
+const productionApiOrigin = 'https://myfirstpr.onrender.com';
+const apiOrigin = configuredApiOrigin || (import.meta.env.PROD ? productionApiOrigin : '');
 const localApiOrigin = `${window.location.protocol}//${window.location.hostname}:5000`;
 
 const api = axios.create({
-  baseURL: configuredApiOrigin ? `${configuredApiOrigin}/api` : '/api',
+  baseURL: apiOrigin ? `${apiOrigin}/api` : '/api',
   headers: {
     'Content-Type': 'application/json'
   },
@@ -24,8 +26,8 @@ const api = axios.create({
 export const resolveImageUrl = (imageUrl: string): string => {
   if (!imageUrl) return '';
   if (/^https?:\/\//i.test(imageUrl)) return imageUrl;
-  const apiOrigin = configuredApiOrigin || localApiOrigin;
-  return `${apiOrigin}${imageUrl.startsWith('/') ? imageUrl : `/${imageUrl}`}`;
+  const imageOrigin = apiOrigin || localApiOrigin;
+  return `${imageOrigin}${imageUrl.startsWith('/') ? imageUrl : `/${imageUrl}`}`;
 };
 
 api.interceptors.request.use((config) => {
@@ -82,10 +84,17 @@ export const productService = {
   getAll: async (): Promise<Product[]> => {
     try {
       const response = await api.get('/products');
-      console.info('[StoreTrae] GET /products:', { status: response.status, count: response.data?.length ?? 0 });
+      if (!Array.isArray(response.data)) {
+        console.error('[StoreTrae] GET /products returned a non-array payload:', response.data);
+        throw new Error('The API returned an invalid products response.');
+      }
+      console.info('[StoreTrae] GET /products:', { status: response.status, count: response.data.length });
       return response.data;
     } catch (error) {
       console.error('[StoreTrae] GET /products failed:', error);
+      if (error instanceof Error && error.message === 'The API returned an invalid products response.') {
+        throw error;
+      }
       if (axios.isAxiosError(error)) {
         const message = error.response?.data?.message;
         if (message) throw new Error(message);
