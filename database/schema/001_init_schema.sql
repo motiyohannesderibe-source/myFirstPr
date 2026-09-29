@@ -7,8 +7,19 @@
 -- CREATE DATABASE storetrae WITH ENCODING = 'UTF8' LC_COLLATE = 'en_US.utf8' LC_CTYPE = 'en_US.utf8';
 
 -- Enum types
-CREATE TYPE user_role AS ENUM ('admin', 'customer');
-CREATE TYPE order_status AS ENUM ('pending', 'processing', 'completed', 'cancelled');
+DO $$
+BEGIN
+    CREATE TYPE user_role AS ENUM ('admin', 'customer');
+EXCEPTION
+    WHEN duplicate_object THEN NULL;
+END $$;
+
+DO $$
+BEGIN
+    CREATE TYPE order_status AS ENUM ('pending', 'processing', 'completed', 'cancelled');
+EXCEPTION
+    WHEN duplicate_object THEN NULL;
+END $$;
 
 -- ============================================================
 -- Users table (for admin login + future customer accounts)
