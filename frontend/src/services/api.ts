@@ -10,8 +10,11 @@ import type {
   User
 } from '../types';
 
+const configuredApiOrigin = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/$/, '');
+const localApiOrigin = `${window.location.protocol}//${window.location.hostname}:5000`;
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: configuredApiOrigin ? `${configuredApiOrigin}/api` : '/api',
   headers: {
     'Content-Type': 'application/json'
   },
@@ -21,7 +24,8 @@ const api = axios.create({
 export const resolveImageUrl = (imageUrl: string): string => {
   if (!imageUrl) return '';
   if (/^https?:\/\//i.test(imageUrl)) return imageUrl;
-  return `${window.location.protocol}//${window.location.hostname}:5000${imageUrl.startsWith('/') ? imageUrl : `/${imageUrl}`}`;
+  const apiOrigin = configuredApiOrigin || localApiOrigin;
+  return `${apiOrigin}${imageUrl.startsWith('/') ? imageUrl : `/${imageUrl}`}`;
 };
 
 api.interceptors.request.use((config) => {

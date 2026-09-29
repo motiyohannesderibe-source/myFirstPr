@@ -60,22 +60,13 @@ Or open `database/setup.sql` and execute the entire file.
 
 Or run individually:
 1. `schema/001_init_schema.sql` — Tables, enums, triggers, indexes
-2. `seeds/001_seed_data.sql` — Admin user
+2. `seeds/001_seed_data.sql` — No default admin is inserted
 3. Add products and orders through the admin UI after setup
 4. `seeds/003_views.sql` — Dashboard/reporting views
 
-## Default Admin Credentials
+## Initial Admin Account
 
-| Field    | Value         |
-|----------|---------------|
-| Username | `admin`       |
-| Password | `admin123`    |
-
-Password is hashed with BCrypt (work factor 10). To generate a new hash:
-```sql
--- Requires pgcrypto extension, or use the .NET tooling
--- $2a$10$... = 'admin123'
-```
+Set `InitialAdmin__Username`, `InitialAdmin__Email`, and `InitialAdmin__Password` in the API environment. The API creates the account on startup if that username does not already exist. Remove the password setting after the first successful startup.
 
 ## Tables
 

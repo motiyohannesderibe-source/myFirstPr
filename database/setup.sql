@@ -102,11 +102,6 @@ CREATE TRIGGER trg_orders_updated_at BEFORE UPDATE ON orders
 CREATE TRIGGER trg_products_search_vector BEFORE INSERT OR UPDATE ON products
     FOR EACH ROW EXECUTE FUNCTION products_search_vector_update();
 
--- SEED: ADMIN USER (password: admin123)
-INSERT INTO users (username, email, password_hash, role) VALUES (
-    'admin',
-    'admin@storetrae.com',
-    '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy',
-    'admin'
-) ON CONFLICT DO NOTHING;
+-- No default admin is seeded. Configure InitialAdmin values in the API environment
+-- to create the first admin account with a private password.
 

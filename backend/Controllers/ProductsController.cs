@@ -13,11 +13,13 @@ public class ProductsController : ControllerBase
 {
     private readonly IProductService _productService;
     private readonly IWebHostEnvironment _environment;
+    private readonly IConfiguration _configuration;
 
-    public ProductsController(IProductService productService, IWebHostEnvironment environment)
+    public ProductsController(IProductService productService, IWebHostEnvironment environment, IConfiguration configuration)
     {
         _productService = productService;
         _environment = environment;
+        _configuration = configuration;
     }
 
     [HttpPost("image")]
@@ -30,7 +32,8 @@ public class ProductsController : ControllerBase
         if (file.Length > 5 * 1024 * 1024)
             return BadRequest(new { message = "Image must be 5 MB or smaller." });
 
-        var uploadsPath = Path.Combine(_environment.WebRootPath ?? Path.Combine(_environment.ContentRootPath, "wwwroot"), "uploads");
+        var uploadsPath = _configuration["Uploads:Path"]
+            ?? Path.Combine(_environment.ContentRootPath, "wwwroot", "uploads");
         Directory.CreateDirectory(uploadsPath);
         var extension = Path.GetExtension(file.FileName).ToLowerInvariant();
         var fileName = $"{Guid.NewGuid():N}{extension}";
@@ -53,7 +56,7 @@ public class ProductsController : ControllerBase
         {
             return StatusCode(StatusCodes.Status503ServiceUnavailable, new
             {
-                message = "Database unavailable. Start PostgreSQL on localhost:5432 and try again."
+                message = "Database unavailable. Please try again later."
             });
         }
     }

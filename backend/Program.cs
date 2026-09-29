@@ -47,15 +47,33 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddSingleton<Npgsql.NpgsqlDataSource>(_ =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-    options.UseNpgsql(connectionString);
+    if (string.IsNullOrWhiteSpace(connectionString))
+    {
+        throw new InvalidOperationException("ConnectionStrings:DefaultConnection must be configured.");
+    }
+
+    var dataSourceBuilder = new Npgsql.NpgsqlDataSourceBuilder(connectionString);
+    dataSourceBuilder.MapEnum<StoreTrae.Api.Models.UserRole>("user_role");
+    dataSourceBuilder.MapEnum<StoreTrae.Api.Models.OrderStatus>("order_status");
+    return dataSourceBuilder.Build();
+});
+
+builder.Services.AddDbContext<AppDbContext>((services, options) =>
+{
+    options.UseNpgsql(services.GetRequiredService<Npgsql.NpgsqlDataSource>());
 });
 
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
 
 var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>();
+if (string.IsNullOrWhiteSpace(jwtSettings?.SecretKey) || Encoding.UTF8.GetByteCount(jwtSettings.SecretKey) < 32)
+{
+    throw new InvalidOperationException("JwtSettings:SecretKey must be configured with at least 32 bytes.");
+}
+
 var key = Encoding.UTF8.GetBytes(jwtSettings!.SecretKey);
 
 builder.Services.AddAuthentication(options =>
@@ -65,7 +83,7 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(options =>
 {
-    options.RequireHttpsMetadata = false;
+    options.RequireHttpsMetadata = !builder.Environment.IsDevelopment();
     options.SaveToken = true;
     options.TokenValidationParameters = new TokenValidationParameters
     {
@@ -101,6 +119,9 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 
 var app = builder.Build();
+var uploadsPath = builder.Configuration["Uploads:Path"]
+    ?? Path.Combine(app.Environment.ContentRootPath, "wwwroot", "uploads");
+Directory.CreateDirectory(uploadsPath);
 
 if (app.Environment.IsDevelopment())
 {
@@ -114,8 +135,6 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowFrontend");
 
 app.UseStaticFiles();
-var uploadsPath = Path.Combine(app.Environment.ContentRootPath, "wwwroot", "uploads");
-Directory.CreateDirectory(uploadsPath);
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(uploadsPath),
@@ -126,6 +145,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapGet("/health", () => Results.Ok(new { status = "ok" }));
 
 using (var scope = app.Services.CreateScope())
 {
@@ -142,6 +162,30 @@ using (var scope = app.Services.CreateScope())
             app.Logger.LogWarning(ex, "Could not auto-create database. Ensure PostgreSQL is running.");
         }
     }
+
+    var adminUsername = app.Configuration["InitialAdmin:Username"];
+    var adminEmail = app.Configuration["InitialAdmin:Email"];
+    var adminPassword = app.Configuration["InitialAdmin:Password"];
+    if (new[] { adminUsername, adminEmail, adminPassword }.Any(value => !string.IsNullOrWhiteSpace(value)))
+    {
+        if (string.IsNullOrWhiteSpace(adminUsername) || string.IsNullOrWhiteSpace(adminEmail) || string.IsNullOrWhiteSpace(adminPassword))
+        {
+            throw new InvalidOperationException("Configure InitialAdmin:Username, InitialAdmin:Email, and InitialAdmin:Password together.");
+        }
+
+        if (!context.Users.Any(user => user.Username == adminUsername))
+        {
+            context.Users.Add(new StoreTrae.Api.Models.User
+            {
+                Username = adminUsername,
+                Email = adminEmail,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(adminPassword),
+                Role = StoreTrae.Api.Models.UserRole.Admin
+            });
+            context.SaveChanges();
+        }
+    }
 }
 
-app.Run("http://0.0.0.0:5000");
+var port = app.Configuration["PORT"] ?? "5000";
+app.Run($"http://0.0.0.0:{port}");
