@@ -103,11 +103,17 @@ builder.Services.AddCors(options =>
     var allowedOrigins = builder.Configuration
         .GetSection("CorsSettings:AllowedOrigins")
         .Get<string[]>() ?? Array.Empty<string>();
+    var normalizedOrigins = allowedOrigins
+        .Where(origin => !string.IsNullOrWhiteSpace(origin))
+        .Select(origin => origin.Trim().TrimEnd('/'))
+        .Append("https://my-first-pr-2.vercel.app")
+        .Distinct(StringComparer.OrdinalIgnoreCase)
+        .ToArray();
 
     options.AddPolicy("AllowFrontend", policy =>
     {
         policy
-            .WithOrigins(allowedOrigins)
+            .WithOrigins(normalizedOrigins)
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials();
