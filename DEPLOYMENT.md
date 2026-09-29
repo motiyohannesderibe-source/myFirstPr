@@ -3,7 +3,7 @@
 ## Before Deploying
 
 1. Create a Supabase project and run `database/schema/001_init_schema.sql` in the Supabase SQL Editor. Do not run the wrapper under `database/migrations`; its `\ir` command is for `psql`.
-2. Create a Render **Web Service** from this repository and select **Docker** as the runtime. Leave Root Directory blank (repository root), set Dockerfile Path to `Dockerfile`, and Docker Context Directory to `.`. Do not use the Static Site form or enter a publish directory; the Dockerfile builds and publishes the API.
+2. Create a Render **Web Service** from this repository and select **Docker** as the runtime. Set Root Directory to `backend`, Dockerfile Path to `Dockerfile`, and Docker Context Directory to `.`. Do not use the Static Site form or enter a publish directory; `backend/Dockerfile` builds and publishes the API from the backend directory.
 3. Configure these Render environment variables:
 
    | Variable | Value |

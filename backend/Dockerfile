@@ -1,11 +1,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY backend/StoreTrae.Api.csproj backend/
-RUN dotnet restore backend/StoreTrae.Api.csproj
+COPY StoreTrae.Api.csproj ./
+RUN dotnet restore StoreTrae.Api.csproj
 
-COPY backend/ backend/
-RUN dotnet publish backend/StoreTrae.Api.csproj \
+COPY . ./
+RUN dotnet publish StoreTrae.Api.csproj \
     --configuration Release \
     --no-restore \
     --output /app/publish
