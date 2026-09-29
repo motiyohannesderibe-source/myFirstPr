@@ -1,0 +1,421 @@
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\appsettings.json
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.staticwebassets.endpoints.json
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.exe
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.deps.json
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.runtimeconfig.json
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.pdb
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Humanizer.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Npgsql.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.csproj.AssemblyReference.cache
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.AssemblyInfoInputs.cache
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.AssemblyInfo.cs
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.csproj.CoreCompileInputs.cache
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\scopedcss\bundle\StoreTrae.Api.styles.css
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTra.0918A9DB.Up2Date
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.dll
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\refint\StoreTrae.Api.dll
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.pdb
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.genruntimeconfig.cache
+C:\Users\moti\Desktop\store-trae\backend\obj\Debug\net8.0\ref\StoreTrae.Api.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\appsettings.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.staticwebassets.endpoints.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.exe
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.deps.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.runtimeconfig.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.pdb
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Humanizer.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Npgsql.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.csproj.AssemblyReference.cache
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.AssemblyInfoInputs.cache
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.AssemblyInfo.cs
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.csproj.CoreCompileInputs.cache
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\scopedcss\bundle\StoreTrae.Api.styles.css
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTra.0918A9DB.Up2Date
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\refint\StoreTrae.Api.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.pdb
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\StoreTrae.Api.genruntimeconfig.cache
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\Debug\net8.0\ref\StoreTrae.Api.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\appsettings.Development.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\appsettings.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\StoreTrae.Api.staticwebassets.endpoints.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\StoreTrae.Api.deps.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\StoreTrae.Api.runtimeconfig.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\StoreTrae.Api.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\StoreTrae.Api.pdb
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\BCrypt.Net-Next.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Humanizer.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.CodeAnalysis.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.EntityFrameworkCore.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.Extensions.DependencyModel.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.IdentityModel.Logging.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.IdentityModel.Protocols.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.IdentityModel.Tokens.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Microsoft.OpenApi.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Mono.TextTemplating.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Npgsql.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\System.CodeDom.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\System.Composition.AttributedModel.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\System.Composition.Convention.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\System.Composition.Hosting.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\System.Composition.Runtime.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\System.Composition.TypedParts.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\appsettings.Development.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\appsettings.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\StoreTrae.Api.staticwebassets.endpoints.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\StoreTrae.Api.deps.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\StoreTrae.Api.runtimeconfig.json
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\StoreTrae.Api.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\StoreTrae.Api.pdb
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\BCrypt.Net-Next.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Humanizer.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.CodeAnalysis.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.EntityFrameworkCore.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.Extensions.DependencyModel.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.IdentityModel.Logging.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.IdentityModel.Protocols.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.IdentityModel.Tokens.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Microsoft.OpenApi.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Mono.TextTemplating.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Npgsql.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\System.CodeDom.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\System.Composition.AttributedModel.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\System.Composition.Convention.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\System.Composition.Hosting.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\System.Composition.Runtime.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\System.Composition.TypedParts.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\obj\validation2\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\moti\Documents\CCNA\New folder\store-trae\backend\bin\Debug\net8.0\StoreTrae.Api.staticwebassets.runtime.json
