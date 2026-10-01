@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   if (isAdminRoute) return null;
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" aria-label="Main navigation">
       <Link to="/" className="navbar-brand">StoreTrae</Link>
       <ul className="navbar-nav">
         <li><Link to="/">Home</Link></li>

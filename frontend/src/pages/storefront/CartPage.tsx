@@ -9,7 +9,7 @@ const CartPage: React.FC = () => {
 
   if (items.length === 0) {
     return (
-      <div className="empty-cart" style={{ marginTop: '3rem' }}>
+      <div className="empty-cart store-page" style={{ marginTop: '3rem' }}>
         <h2 style={{ marginBottom: '1rem' }}>Your Cart is Empty</h2>
         <p style={{ marginBottom: '2rem' }}>Add some products to get started!</p>
         <Link to="/products" className="btn btn-primary">Browse Products</Link>
@@ -18,7 +18,7 @@ const CartPage: React.FC = () => {
   }
 
   return (
-    <div>
+    <div className="store-page cart-page">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
         <div>
           <h1 className="page-title">Shopping Cart</h1>

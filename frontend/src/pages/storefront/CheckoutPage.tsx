@@ -52,7 +52,7 @@ const CheckoutPage: React.FC = () => {
 
   if (items.length === 0) {
     return (
-      <div className="empty-cart" style={{ marginTop: '3rem' }}>
+      <div className="empty-cart store-page" style={{ marginTop: '3rem' }}>
         <h2 style={{ marginBottom: '1rem' }}>No Items to Checkout</h2>
         <p style={{ marginBottom: '2rem' }}>Your cart is empty.</p>
         <Link to="/products" className="btn btn-primary">Browse Products</Link>
@@ -61,7 +61,7 @@ const CheckoutPage: React.FC = () => {
   }
 
   return (
-    <div>
+    <div className="store-page checkout-page">
       <h1 className="page-title">Checkout</h1>
       <p className="page-subtitle">Complete your order by filling out the information below</p>
 

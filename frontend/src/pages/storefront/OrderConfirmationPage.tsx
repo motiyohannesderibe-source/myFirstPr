@@ -5,7 +5,7 @@ const OrderConfirmationPage: React.FC = () => {
   const { orderId } = useParams<{ orderId: string }>();
 
   return (
-    <div className="confirmation-card">
+    <div className="confirmation-card store-page">
       <div className="confirmation-icon">&#10004;</div>
       <h1 className="confirmation-title">Order Confirmed!</h1>
       <p style={{ color: '#6b7280', marginBottom: '1rem' }}>

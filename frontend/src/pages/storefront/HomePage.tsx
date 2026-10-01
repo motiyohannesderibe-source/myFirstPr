@@ -4,13 +4,13 @@ import type { Product } from '../../types';
 import { productService } from '../../services/api';
 import ProductCard from '../../components/storefront/ProductCard';
 
-const categoryIcons: Record<string, string> = {
-  Electronics: '📱',
-  Clothing: '👕',
-  'Home & Kitchen': '🏠',
-  Books: '📚',
-  Sports: '⚽',
-  Beauty: '💄'
+const categoryImages: Record<string, string> = {
+  Electronics: 'photo-1519389950473-47ba0277781c',
+  Clothing: 'photo-1483985988355-763728e1935b',
+  'Home & Kitchen': 'photo-1616486338812-3dadae4b4ace',
+  Books: 'photo-1507842217343-583bb7277295',
+  Sports: 'photo-1461896836934-ffe607ba8211',
+  Beauty: 'photo-1596462502278-27bfdc403348'
 };
 
 const HomePage: React.FC = () => {
@@ -35,80 +35,81 @@ const HomePage: React.FC = () => {
     void loadFeaturedProducts();
   }, []);
 
+  const categories = Array.from(new Set(products.map((product) => product.category))).slice(0, 4);
+
   return (
-    <div>
-      <div className="hero-section">
-        <h1>Welcome to StoreTrae</h1>
-        <p>Discover premium quality products at unbeatable prices. Curated just for you with fast, reliable delivery.</p>
-        <Link to="/products">
-          Explore Products →
-        </Link>
+    <div className="store-home">
+      <section className="store-hero">
+        <img
+          className="store-hero-image"
+          src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=2400&q=90"
+          alt="A sunlit independent shop filled with carefully chosen pieces"
+        />
+        <div className="store-hero-content">
+          <span className="store-eyebrow"><span /> THE EVERYDAY EDIT</span>
+          <h1>Good finds.<br />Great feeling.</h1>
+          <p>Useful things, thoughtful details, and little upgrades worth coming home to.</p>
+          <Link to="/products" className="store-hero-cta">Find your thing <span aria-hidden="true">↗</span></Link>
+        </div>
+        <span className="store-hero-index">01 / MADE FOR EVERY DAY</span>
+      </section>
+
+      <div className="store-promises" aria-label="Store benefits">
+        <span>Thoughtfully picked</span>
+        <span>Good things, fair prices</span>
+        <span>Delivered to your door</span>
       </div>
 
-      <div className="home-stats">
-        <div className="stat-card">
-          <div className="stat-label">Quality Products</div>
-          <div className="stat-value">100+</div>
-          <div className="stat-trend trend-up">Carefully selected</div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-label">Happy Customers</div>
-          <div className="stat-value">5,000+</div>
-          <div className="stat-trend trend-up">Growing daily</div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-label">Fast Delivery</div>
-          <div className="stat-value">24-48h</div>
-          <div className="stat-trend trend-up">Nationwide</div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-label">Secure Checkout</div>
-          <div className="stat-value">24/7</div>
-          <div className="stat-trend trend-up">100% protected</div>
-        </div>
-      </div>
-
-      <h2 style={{ fontSize: '1.8rem', fontWeight: 800, marginTop: '1rem', marginBottom: '1.25rem', letterSpacing: '-0.02em' }}>
-        <span className="text-gradient">Shop by Category</span>
-      </h2>
-      <div className="home-categories">
-        {['Electronics', 'Clothing', 'Home & Kitchen', 'Books'].map((cat) => (
-          <div key={cat} onClick={() => {
-            sessionStorage.setItem('filterCategory', cat);
-            window.location.href = '/products';
-          }}>
-            <div style={{ fontSize: '2.5rem', marginBottom: '0.75rem', position: 'relative', zIndex: 1 }}>
-              {categoryIcons[cat] || '🛍️'}
+      {categories.length > 0 && (
+        <section className="store-categories" aria-labelledby="category-heading">
+          <div className="store-section-heading">
+            <div>
+              <span className="store-section-kicker">A GOOD PLACE TO START</span>
+              <h2 id="category-heading">Shop your way.</h2>
             </div>
-            <h3>{cat}</h3>
-            <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)', marginTop: '0.35rem', fontWeight: 600, position: 'relative', zIndex: 1 }}>
-              Browse now →
-            </div>
+            <span className="store-section-note">A little something for every day.</span>
           </div>
-        ))}
-      </div>
-
-      <div className="home-products-heading">
-        <div>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: 800, margin: 0, letterSpacing: '-0.02em' }}>
-            <span className="text-gradient">Featured Products</span>
-          </h2>
-          <p>Explore what is available in our store today.</p>
-        </div>
-        <Link to="/products" className="home-products-link">View all products</Link>
-      </div>
-
-      {productsLoading ? (
-        <p className="home-products-message">Loading products...</p>
-      ) : productsError ? (
-        <p className="home-products-message home-products-error">{productsError}</p>
-      ) : products.length === 0 ? (
-        <p className="home-products-message">No products are available yet.</p>
-      ) : (
-        <div className="product-grid home-product-grid">
-          {products.map((product) => <ProductCard key={product.id} product={product} />)}
-        </div>
+          <div className="store-category-grid">
+            {categories.map((category, index) => (
+              <Link
+                className="store-category"
+                to={`/products?category=${encodeURIComponent(category)}`}
+                key={category}
+              >
+                <img
+                  src={`https://images.unsplash.com/${categoryImages[category] || 'photo-1441986300917-64674bd600d8'}?auto=format&fit=crop&w=900&q=80`}
+                  alt=""
+                  loading="lazy"
+                />
+                <span className="store-category-number">0{index + 1}</span>
+                <span className="store-category-label">{category}<span aria-hidden="true">↗</span></span>
+              </Link>
+            ))}
+          </div>
+        </section>
       )}
+
+      <section className="store-featured" aria-labelledby="featured-heading">
+        <div className="store-section-heading">
+          <div>
+            <span className="store-section-kicker">THE GOOD STUFF</span>
+            <h2 id="featured-heading">Picked for you.</h2>
+          </div>
+          <Link to="/products" className="store-all-products">See everything <span aria-hidden="true">↗</span></Link>
+        </div>
+
+        {productsLoading ? (
+          <p className="home-products-message">Finding the good stuff...</p>
+        ) : productsError ? (
+          <p className="home-products-message home-products-error">{productsError}</p>
+        ) : products.length === 0 ? (
+          <p className="home-products-message">No products are available yet.</p>
+        ) : (
+          <div className="product-grid home-product-grid">
+            {products.map((product) => <ProductCard key={product.id} product={product} />)}
+          </div>
+        )}
+      </section>
     </div>
   );
 };

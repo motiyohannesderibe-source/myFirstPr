@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import type { Product } from '../../types';
 import { productService } from '../../services/api';
 import ProductCard from '../../components/storefront/ProductCard';
 
 const ProductsPage: React.FC = () => {
+  const [searchParams] = useSearchParams();
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
-  const [categoryFilter, setCategoryFilter] = useState<string>('');
+  const [categoryFilter, setCategoryFilter] = useState<string>(searchParams.get('category') ?? '');
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
@@ -37,7 +39,7 @@ const ProductsPage: React.FC = () => {
   });
 
   return (
-    <div>
+    <div className="store-page products-page">
       <h1 className="page-title">All Products</h1>
       <p className="page-subtitle">Browse our collection of premium products</p>
 

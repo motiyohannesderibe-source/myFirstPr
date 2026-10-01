@@ -16,7 +16,7 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children, title, subtitle, ac
   const closeSidebar = () => setIsSidebarOpen(false);
 
   return (
-    <div className="admin-layout">
+    <div className="admin-layout admin-shell">
       <button
         className="admin-menu-toggle"
         type="button"
